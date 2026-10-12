@@ -4,25 +4,25 @@ LLM created in python,  completely from scratch with numpy.
 
 Architecture of LLM...
 
-         Text 
-           |
-           v
-character level tokenization
-           |
-           v
- 384 Dimention embeddings
-           |
-           v
-   Transformer Block 1-6
-           |
-           v
-multiplication with Wo(weights) & adding Bo(Biases)
-           |
-           v
-softmax for probability distribution
-           |
-           v
-    next token predicted
+                  Text 
+                    |
+                    v
+           character level tokenization
+                    |
+                    v
+           384 Dimention embeddings
+                    |
+                    v
+           Transformer Block 1-6
+                    |
+                    v
+           multiplication with Wo(weights) & adding Bo(Biases)
+                    |
+                    v
+           softmax for probability distribution
+                    |
+                    v
+             next token predicted
 
 
 
