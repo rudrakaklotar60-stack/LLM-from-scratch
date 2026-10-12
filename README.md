@@ -31,5 +31,8 @@ i used classical PE(Positional Encoding), MHA (multi head attention), Plain FFN(
 One transformer block consist of ~1.77 Million parameter, and LLM is made of 6 of these transformer blocks.
 This LLM is trained on TinyShakespere, 32 batches, and have 128 context window.
     
-    
+
+
+  Here's link of google drive, where is weights of model in training run.
+  https://drive.google.com/drive/folders/1luURrgxuRMX__hkT2z6mCuZjU3Zb3_Z6?usp=sharing
 
